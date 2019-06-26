@@ -2,16 +2,57 @@ body {background-color: purple;}
 h1{color: green;}
 h6{color: red;}
 
-a:link {
+.homelink {
 color: red;
 background-color: white;
 }
 
-a:hover {
+.homelink {
 background-color: red;
 }
 
 img {
-position: relative;
-left: 25%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+#why {
+ text-align: center;
+ color: pink;
+}
+
+a:link.why2 {
+border: 3px solid green;
+background-color: green;
+padding: 17%;
+}
+
+a:hover.why2 {
+border: 3px solid blue;
+background-color: blue;
+color: white;
+padding: 16%;
+}
+
+a.why2 {
+font-size:300%;
+text-decoration: none;
+}
+a.social {
+color: white;
+background-color: gray;
+display: block;
+margin-left: 40%;
+width: 13%;
+padding: 5px;
+text-decoration: none;
+}
+a:hover.social {
+color: gray;
+background-color: white;
+width: 13%;
+padding: 5px;
+text-decoration: none;
 }
