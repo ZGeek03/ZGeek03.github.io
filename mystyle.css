@@ -1,0 +1,17 @@
+body {background-color: purple;}
+h1{color: green;}
+h6{color: red;}
+
+a:link {
+color: red;
+background-color: white;
+}
+
+a:hover {
+background-color: red;
+}
+
+img {
+position: relative;
+left: 25%;
+}
