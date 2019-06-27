@@ -1,10 +1,11 @@
 body {background-color: purple;}
-h1{color: green;}
+h1.grump {color: green;}
 h6{color: red;}
 
 a:link.homelink {
 color: red;
 background-color: white;
+font-size: 200%
 }
 
 a:hover.homelink {
@@ -40,19 +41,57 @@ a.why2 {
 font-size:300%;
 text-decoration: none;
 }
+
 a.social {
 color: white;
 background-color: gray;
-display: block;
-margin-left: 40%;
-width: 13%;
-padding: 5px;
+width: 20%;
+padding: 1%;
 text-decoration: none;
+display: block;
+margin-right:auto;
+margin-left:auto;
 }
+
 a:hover.social {
 color: gray;
 background-color: white;
-width: 13%;
-padding: 5px;
+width: 20%;
+padding: 1%;
 text-decoration: none;
+display: block;
+margin-right:auto;
+margin-left:auto;
+}
+
+h1.spongebob {
+color: yellow;
+text-align: center;
+font-size: 400%;
+}
+
+.rightpic {
+float: right;
+}
+
+.leftpic {
+float: left;
+}
+
+a:link.homebutton {
+text-decoration: none;
+position: fixed;
+color: white;
+background-color: orange;
+width: 5%;
+text-align: center;
+margin: 10px;
+padding: 10px;
+}
+
+a:hover.homebutton {
+text-decoration: none;
+position: fixed;
+color: orange;
+background-color: white;
 }
