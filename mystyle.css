@@ -100,3 +100,11 @@ position: fixed;
 color: orange;
 background-color: white;
 }
+
+
+iframe {
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
