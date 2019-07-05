@@ -1,11 +1,17 @@
-body {background-color: purple;}
+body {
+background-color: purple;
+
+}
+
 h1.grump {color: green;}
 h6{color: red;}
+
 
 a:link.homelink {
 color: red;
 background-color: white;
 text-decoration: none;
+font-family: sans-serif;
 font-size: 200%
 
 }
@@ -86,12 +92,13 @@ text-decoration: none;
 position: fixed;
 color: white;
 background-color: orange;
-width: 5%;
+width: 7%;
 text-align: center;
 margin: 10px;
 padding: 10px;
 bottom: 0%;
 right: 0%;
+font-family: sans-serif;
 }
 
 a:hover.homebutton {
