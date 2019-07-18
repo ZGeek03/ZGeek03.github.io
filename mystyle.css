@@ -7,9 +7,9 @@ h1.grump {color: green;}
 h6{color: red;}
 
 
-a:link.homelink {
-color: red;
-background-color: white;
+a.homelink {
+color: purple;
+background-color: purple;
 text-decoration: none;
 font-family: sans-serif;
 font-size: 200%
@@ -18,6 +18,7 @@ font-size: 200%
 
 a:hover.homelink {
 background-color: red;
+color: white;
 text-decoration: none;
 }
 
@@ -33,23 +34,27 @@ margin-right: auto;
  color: pink;
 }
 
-a:link.why2 {
+a.why2 {
+font-size:300%;
+text-align: center;
+text-decoration: none;
 border: 3px solid green;
 background-color: green;
-padding: 17%;
+width: 45%;
+padding-top: 12%;
+padding-bottom: 12%;
 }
 
 a:hover.why2 {
 border: 3px solid blue;
 background-color: blue;
+text-align: center;
 color: white;
-padding: 16%;
+width: 40%;
+padding-bottom: 9%;
+padding-top: 9%;
 }
 
-a.why2 {
-font-size:300%;
-text-decoration: none;
-}
 
 a.social {
 color: white;
@@ -87,11 +92,11 @@ float: right;
 float: left;
 }
 
-a:link.homebutton {
-text-decoration: none;
-position: fixed;
+a.homebutton {
 color: white;
 background-color: orange;
+text-decoration: none;
+position: fixed;
 width: 7%;
 text-align: center;
 margin: 10px;
@@ -102,10 +107,10 @@ font-family: sans-serif;
 }
 
 a:hover.homebutton {
-text-decoration: none;
-position: fixed;
 color: orange;
 background-color: white;
+text-decoration: none;
+position: fixed;
 }
 
 
@@ -113,5 +118,4 @@ iframe {
 display: block;
 margin-left: auto;
 margin-right: auto;
-
 }
